@@ -1,0 +1,10 @@
+config BR2_PACKAGE_RPMDEVTOOLS
+	bool "rpmdevtools"
+	select BR2_PACKAGE_HELP2MAN
+	help
+	  This package contains scripts and Emacs support files to aid in
+	  development of RPM packages.
+
+	  https://pagure.io/rpmdevtools
+
+

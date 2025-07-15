@@ -1,0 +1,34 @@
+################################################################################
+#
+# rpmdevtools
+#
+################################################################################
+
+RPMDEVTOOLS_VERSION = 9.6
+RPMDEVTOOLS_SOURCE = rpmdevtools-RPMDEVTOOLS_9_6.tar.gz
+RPMDEVTOOLS_SITE = https://pagure.io/rpmdevtools/archive/RPMDEVTOOLS_9_6
+RPMDEVTOOLS_INSTALL_STAGING = YES
+RPMDEVTOOLS_INSTALL_TARGET = YES
+RPMDEVTOOLS_DEPENDENCIES = host-automake host-autoconf help2man python3
+RPMDEVTOOLS_AUTORECONF = YES
+RPMDEVTOOLS_AUTORECONF_OPTS = --add-missing
+
+#define RPMDEVTOOLS_BUILD_CMDS
+#	aclocal
+#	autoupdate
+#	autoconf
+#	automake --add-missing
+#	./configure
+#	make
+#endef
+
+#define RPMDEVTOOLS_INSTALL_STAGING_CMDS
+#	make install
+#endef
+
+#define RPMDEVTOOLS_INSTALL_TARGET_CMDS
+#	make install
+#endef
+
+$(eval $(autotools-package))
+#$(eval $(generic-package))
