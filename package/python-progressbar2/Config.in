@@ -1,0 +1,4 @@
+config BR2_PACKAGE_PYTHON_PROGRESSBAR2
+	bool "python-progressbar2"
+	select BR2_PACKAGE_PYTHON_UTILS # runtime
+	help
