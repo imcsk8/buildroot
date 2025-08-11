@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_RPM
+	bool "python-rpm"
+	select BR2_PACKAGE_PYTHON_SETUPTOOLS_SCM
+	help
+	  Shim RPM module for use in virtualenvs.
+
+	  https://github.com/packit/rpm-shim

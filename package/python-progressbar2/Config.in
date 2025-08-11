@@ -1,0 +1,9 @@
+config BR2_PACKAGE_PYTHON_PROGRESSBAR2
+	bool "python-progressbar2"
+	select BR2_PACKAGE_PYTHON_UTILS # runtime
+	help
+	  A text progress bar is typically used to display the progress of a long running
+	  operation, providing a visual cue that processing is underway.
+
+	  https://github.com/WoLpH/python-progressbar
+

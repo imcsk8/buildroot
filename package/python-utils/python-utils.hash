@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/python-utils/json
+md5  b10945ddd5b81c0a9d28b54ba47a979a  python_utils-3.9.1.tar.gz
+sha256  eb574b4292415eb230f094cbf50ab5ef36e3579b8f09e9f2ba74af70891449a0  python_utils-3.9.1.tar.gz
+# Locally computed sha256 checksums
+sha256  fd9aecf4d66ef86ebf6994f683726fe7f25110941f8513410bad441fa5831fea  LICENSE

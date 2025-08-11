@@ -1,0 +1,12 @@
+config BR2_PACKAGE_RPMDEVTOOLS
+	bool "rpmdevtools"
+	select BR2_PACKAGE_HELP2MAN
+	select BR2_PACKAGE_PYTHON_RPM
+	select BR2_PACKAGE_PYTHON_UTILS
+	help
+	  This package contains scripts and Emacs support files to aid in
+	  development of RPM packages.
+
+	  https://pagure.io/rpmdevtools
+
+

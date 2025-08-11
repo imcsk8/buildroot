@@ -1,0 +1,28 @@
+From 17c31c6d5f746976b468f8c59536b28f07adb770 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Iv=C3=A1n=20Chavero?= <ichavero@chavero.com.mx>
+Date: Wed, 16 Jul 2025 17:10:45 -0600
+Subject: [PATCH] Remove deprecated dependency: setuptools_scm_git_archive
+
+The setuptools_scm_git_archive is obsolete, setuptools_scm >= 7.0.0 supports
+Git archives by itself.
+---
+ pyproject.toml | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index b9dcfd9..fd98f8e 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -1,8 +1,7 @@
+ [build-system]
+ requires = [
+     "setuptools>=45",
+-    "setuptools_scm[toml]",
+-    "setuptools_scm_git_archive",
++    "setuptools_scm[toml]>=8",
+ ]
+ build-backend = "setuptools.build_meta"
+ 
+-- 
+2.50.0
+

@@ -1,0 +1,10 @@
+config BR2_PACKAGE_HELP2MAN
+	bool "help2man"
+	select BR2_PACKAGE_PERL
+	help
+	  help2man is a script to create simple man pages from the --help and
+	  --version output of programs.
+
+	  https://www.gnu.org/software/help2man/
+
+

@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/rpm/json
+md5  e0591fa0956ef494a0d1b933b45c8ee7  rpm-0.4.0.tar.gz
+sha256  79adbefa82318e2625d6e4fa16666cf88543498a1f2c10dc3879165d1dc3ecee  rpm-0.4.0.tar.gz
+# Locally computed sha256 checksums
+sha256  e4db74b05c9d7ebf8d3888e134244eaf86376da3602739df1e7224ada25a806e  LICENSE
