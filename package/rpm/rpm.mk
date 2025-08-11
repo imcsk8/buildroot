@@ -122,4 +122,10 @@ RPM_CONF_ENV = \
 	ac_cv_prog_cc_c99='-std=gnu99' \
 	LIBS=$(TARGET_NLS_LIBS)
 
+define RPM_PRESERVE_TARGET_DIRS
+	cp -rp $(TARGET_DIR)/usr/lib/rpm $(BR2_ROOTFS_OVERLAY)/usr/lib/
+endef
+
+RPM_TARGET_FINALIZE_HOOKS += RPM_PRESERVE_TARGET_DIRS
+
 $(eval $(autotools-package))
