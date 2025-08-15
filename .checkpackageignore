@@ -475,7 +475,7 @@ package/fxdiv/0001-CMake-don-t-enable-CXX-unless-building-tests-benchma.patch li
 package/fxload/0001-fix-static-build.patch lib_patch.Upstream
 package/gcc/13.4.0/0001-disable-split-stack-for-non-thread-builds.patch lib_patch.Upstream
 package/gcc/14.3.0/0001-disable-split-stack-for-non-thread-builds.patch lib_patch.Upstream
-package/gcc/15.1.0/0001-disable-split-stack-for-non-thread-builds.patch lib_patch.Upstream
+package/gcc/15.2.0/0001-disable-split-stack-for-non-thread-builds.patch lib_patch.Upstream
 package/gcc/8.4.0/0001-xtensa-fix-PR-target-91880.patch lib_patch.Upstream
 package/gcc/8.4.0/0002-Revert-re-PR-target-92095-internal-error-with-O1-mcp.patch lib_patch.Upstream
 package/gcc/8.4.0/0003-libsanitizer-Remove-cyclades-from-libsanitizer.patch lib_patch.Upstream
@@ -584,7 +584,7 @@ package/irqbalance/S13irqbalance Shellcheck lib_sysv.Indent lib_sysv.Variables
 package/irrlicht/0001-override-CPPFLAGS-CXXFLAGS-and-CFLAGS-in-Makefile.patch lib_patch.Upstream
 package/irrlicht/0002-makefile-override-LDFLAGS-and-remove-obsolete-X11R6-.patch lib_patch.Upstream
 package/iucode-tool/S00iucode-tool lib_sysv.Variables
-package/iwd/S40iwd Shellcheck lib_sysv.Variables
+package/iwd/S40iwd Shellcheck
 package/janus-gateway/0001-disable-ssp.patch lib_patch.Upstream
 package/kexec-lite/0001-clean-restart.patch lib_patch.Upstream
 package/keyutils/0001-fix-install-rule.patch lib_patch.Upstream
@@ -828,7 +828,6 @@ package/netplug/0002-add-missing-time-include.patch lib_patch.Upstream
 package/netplug/0003-remove-assert-fail.patch lib_patch.Upstream
 package/netplug/S29netplug Shellcheck lib_sysv.Indent lib_sysv.Variables
 package/netplug/netplug-script Shellcheck lib_shellscript.ConsecutiveEmptyLines
-package/netsniff-ng/0001-Detect-libpcap-dependencies-using-pkg-config.patch lib_patch.Upstream
 package/netsnmp/S59snmpd Shellcheck lib_sysv.Indent lib_sysv.Variables
 package/netsurf/0001-avoid-system-perl-dependencies.patch lib_patch.Upstream
 package/netsurf/0002-do-not-cross-compile-nsgenbind.patch lib_patch.Upstream
@@ -857,13 +856,11 @@ package/norm/0001-protolib-drop-linux-version-check.patch lib_patch.Upstream
 package/norm/0002-Use-print-as-function-call-for-Python3-compatibility.patch lib_patch.Upstream
 package/norm/0003-Fix-mixed-tabs-spaces-in-protolib-wscript.patch lib_patch.Upstream
 package/nss-pam-ldapd/S45nslcd Shellcheck lib_sysv.EmptyLastLine lib_sysv.Indent lib_sysv.Variables
-package/ntp/0001-ntp-syscalls-fallback.patch lib_patch.Upstream
 package/ntp/S49ntp.in lib_sysv.Variables
 package/ntpsec/0001-wscript-remove-checks-for-bsd-string.h-fixes-host-co.patch lib_patch.Upstream
 package/nuttcp/0001-susv3-legacy.patch lib_patch.Upstream
 package/nvidia-driver/0001-use-LDFLAGS.patch lib_patch.Upstream
 package/octave/0001-Fix-BLAS-library-integer-size-detection.patch lib_patch.Upstream
-package/ofono/0001-uclibc-backtrace.patch lib_patch.Upstream
 package/ofono/S46ofono lib_sysv.Variables
 package/ola/0001-ola-fix-compilation-with-musl-1-2-3.patch lib_patch.Upstream
 package/olsr/0001-olsrd-migrate-to-using-bison-3.7.1.patch lib_patch.Upstream
